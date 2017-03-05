@@ -33,7 +33,7 @@ namespace TransactionLog_Analyser
             OpenFileDialog openFileDialog1 = new OpenFileDialog();
 
             openFileDialog1.InitialDirectory = "c:\\";
-            openFileDialog1.Filter = "csv files (*.csv)|*.txt|All files (*.*)|*.*";
+            openFileDialog1.Filter = "csv files (*.csv)|*.csv|All files (*.*)|*.*";
             openFileDialog1.FilterIndex = 1;
             openFileDialog1.RestoreDirectory = true;
 
@@ -179,11 +179,19 @@ namespace TransactionLog_Analyser
             {
                 using (CsvFileWriter writer = new CsvFileWriter(saveFileDialog1.FileName))
                 {
+                    CsvRow Header = new CsvRow();
+                    Header.Add("Timestep");
+                    Header.Add("TransactionName");
+                    Header.Add("Amount");
+                    Header.Add("ValueBefore");
+                    writer.WriteRow(Header);
                     for (int i = 0; i < dataGridView1.Rows.Count-1;i++)
                     {
                         CsvRow row = new CsvRow();
                         for (int j = 0; j < dataGridView1.Columns.Count; j++)
-                            row.Add(dataGridView1[j,i].Value.ToString());
+                        {                            
+                            row.Add(dataGridView1[j, i].Value.ToString());
+                        }
                         writer.WriteRow(row);
                     }
                 }

@@ -7,3 +7,12 @@ c:\users\rudi\documents\visual studio 2015\Projects\TransactionLog Analyser\Tran
 c:\users\rudi\documents\visual studio 2015\Projects\TransactionLog Analyser\TransactionLog Analyser\obj\Debug\TransactionLog Analyser.csproj.GenerateResource.Cache
 c:\users\rudi\documents\visual studio 2015\Projects\TransactionLog Analyser\TransactionLog Analyser\obj\Debug\TransactionLog Analyser.exe
 c:\users\rudi\documents\visual studio 2015\Projects\TransactionLog Analyser\TransactionLog Analyser\obj\Debug\TransactionLog Analyser.pdb
+C:\Git\TransactionLogAnalyser\TransactionLog Analyser\bin\Debug\TransactionLog Analyser.exe.config
+C:\Git\TransactionLogAnalyser\TransactionLog Analyser\obj\Debug\TransactionLog Analyser.exe
+C:\Git\TransactionLogAnalyser\TransactionLog Analyser\obj\Debug\TransactionLog Analyser.pdb
+C:\Git\TransactionLogAnalyser\TransactionLog Analyser\bin\Debug\TransactionLog Analyser.exe
+C:\Git\TransactionLogAnalyser\TransactionLog Analyser\bin\Debug\TransactionLog Analyser.pdb
+C:\Git\TransactionLogAnalyser\TransactionLog Analyser\obj\Debug\TransactionLog Analyser.csprojResolveAssemblyReference.cache
+C:\Git\TransactionLogAnalyser\TransactionLog Analyser\obj\Debug\TransactionLog_Analyser.Form1.resources
+C:\Git\TransactionLogAnalyser\TransactionLog Analyser\obj\Debug\TransactionLog_Analyser.Properties.Resources.resources
+C:\Git\TransactionLogAnalyser\TransactionLog Analyser\obj\Debug\TransactionLog Analyser.csproj.GenerateResource.Cache
