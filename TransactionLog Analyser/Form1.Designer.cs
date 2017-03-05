@@ -48,25 +48,27 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(126, 85);
+            this.label1.Location = new System.Drawing.Point(63, 44);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(167, 25);
+            this.label1.Size = new System.Drawing.Size(84, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "Transaction Log";
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(336, 79);
+            this.textBox1.Location = new System.Drawing.Point(168, 41);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(830, 31);
+            this.textBox1.Size = new System.Drawing.Size(417, 20);
             this.textBox1.TabIndex = 1;
-            this.textBox1.Text = "C:\\temp\\transactionlog.csv";
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(1202, 76);
+            this.button1.Location = new System.Drawing.Point(601, 40);
+            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 34);
+            this.button1.Size = new System.Drawing.Size(38, 18);
             this.button1.TabIndex = 2;
             this.button1.Text = "...";
             this.button1.UseVisualStyleBackColor = true;
@@ -75,27 +77,29 @@
             // productlist
             // 
             this.productlist.FormattingEnabled = true;
-            this.productlist.ItemHeight = 25;
-            this.productlist.Location = new System.Drawing.Point(55, 427);
+            this.productlist.Location = new System.Drawing.Point(28, 222);
+            this.productlist.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.productlist.Name = "productlist";
-            this.productlist.Size = new System.Drawing.Size(645, 529);
+            this.productlist.Size = new System.Drawing.Size(324, 277);
             this.productlist.TabIndex = 3;
             this.productlist.SelectedIndexChanged += new System.EventHandler(this.productlist_SelectedIndexChanged);
             // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(740, 266);
+            this.dataGridView1.Location = new System.Drawing.Point(370, 138);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowTemplate.Height = 33;
-            this.dataGridView1.Size = new System.Drawing.Size(1445, 454);
+            this.dataGridView1.Size = new System.Drawing.Size(722, 236);
             this.dataGridView1.TabIndex = 4;
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(564, 166);
+            this.button2.Location = new System.Drawing.Point(282, 86);
+            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(136, 47);
+            this.button2.Size = new System.Drawing.Size(68, 24);
             this.button2.TabIndex = 5;
             this.button2.Text = "Analyse";
             this.button2.UseVisualStyleBackColor = true;
@@ -104,42 +108,47 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(72, 320);
+            this.label2.Location = new System.Drawing.Point(36, 166);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(151, 25);
+            this.label2.Size = new System.Drawing.Size(75, 13);
             this.label2.TabIndex = 6;
             this.label2.Text = "Timestep Start";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(75, 266);
+            this.label3.Location = new System.Drawing.Point(38, 138);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(97, 25);
+            this.label3.Size = new System.Drawing.Size(49, 13);
             this.label3.TabIndex = 7;
             this.label3.Text = "Scenario";
             // 
             // scenario
             // 
             this.scenario.FormattingEnabled = true;
-            this.scenario.Location = new System.Drawing.Point(265, 258);
+            this.scenario.Location = new System.Drawing.Point(132, 134);
+            this.scenario.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.scenario.Name = "scenario";
-            this.scenario.Size = new System.Drawing.Size(117, 33);
+            this.scenario.Size = new System.Drawing.Size(60, 21);
             this.scenario.TabIndex = 8;
             // 
             // timestepStart
             // 
             this.timestepStart.FormattingEnabled = true;
-            this.timestepStart.Location = new System.Drawing.Point(261, 317);
+            this.timestepStart.Location = new System.Drawing.Point(130, 165);
+            this.timestepStart.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.timestepStart.Name = "timestepStart";
-            this.timestepStart.Size = new System.Drawing.Size(121, 33);
+            this.timestepStart.Size = new System.Drawing.Size(62, 21);
             this.timestepStart.TabIndex = 9;
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(1147, 791);
+            this.button3.Location = new System.Drawing.Point(574, 411);
+            this.button3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(269, 46);
+            this.button3.Size = new System.Drawing.Size(134, 24);
             this.button3.TabIndex = 10;
             this.button3.Text = "Export to .csv";
             this.button3.UseVisualStyleBackColor = true;
@@ -148,15 +157,17 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(75, 378);
+            this.label4.Location = new System.Drawing.Point(38, 197);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(111, 25);
+            this.label4.Size = new System.Drawing.Size(55, 13);
             this.label4.TabIndex = 11;
             this.label4.Text = "Timesteps";
             // 
             // timesteps
             // 
-            this.timesteps.Location = new System.Drawing.Point(265, 376);
+            this.timesteps.Location = new System.Drawing.Point(132, 196);
+            this.timesteps.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.timesteps.Maximum = new decimal(new int[] {
             1000,
             0,
@@ -168,7 +179,7 @@
             0,
             0});
             this.timesteps.Name = "timesteps";
-            this.timesteps.Size = new System.Drawing.Size(120, 31);
+            this.timesteps.Size = new System.Drawing.Size(60, 20);
             this.timesteps.TabIndex = 12;
             this.timesteps.Value = new decimal(new int[] {
             1,
@@ -178,9 +189,9 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(2567, 968);
+            this.ClientSize = new System.Drawing.Size(1284, 503);
             this.Controls.Add(this.timesteps);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.button3);
@@ -194,6 +205,7 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form1";
             this.Text = "Transaction Log Analyser";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
