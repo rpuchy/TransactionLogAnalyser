@@ -1,0 +1,8 @@
+C:\Git\TransactionLogAnalyser\TransactionLog Analyser\bin\Release\TransactionLog Analyser.exe.config
+C:\Git\TransactionLogAnalyser\TransactionLog Analyser\bin\Release\TransactionLog Analyser.exe
+C:\Git\TransactionLogAnalyser\TransactionLog Analyser\bin\Release\TransactionLog Analyser.pdb
+C:\Git\TransactionLogAnalyser\TransactionLog Analyser\obj\Release\TransactionLog_Analyser.Form1.resources
+C:\Git\TransactionLogAnalyser\TransactionLog Analyser\obj\Release\TransactionLog_Analyser.Properties.Resources.resources
+C:\Git\TransactionLogAnalyser\TransactionLog Analyser\obj\Release\TransactionLog Analyser.csproj.GenerateResource.Cache
+C:\Git\TransactionLogAnalyser\TransactionLog Analyser\obj\Release\TransactionLog Analyser.exe
+C:\Git\TransactionLogAnalyser\TransactionLog Analyser\obj\Release\TransactionLog Analyser.pdb

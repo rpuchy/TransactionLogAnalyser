@@ -106,7 +106,7 @@ namespace TransactionLog_Analyser
             {
                 timestepStart.Items.Add(ts);
             }
-            timestepStart.SelectedIndex = 2;
+            timestepStart.SelectedIndex = Math.Min(2,timestepStart.Items.Count-1);
             foreach(var sc in trials.Distinct().ToList())
             {
                 scenario.Items.Add(sc);
